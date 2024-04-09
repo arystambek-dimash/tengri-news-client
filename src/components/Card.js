@@ -1,6 +1,6 @@
 const Card = ({item}) => {
 
-    return(
+    return (
         <a href={item.details_url}>
             <div className={"flex w-[100%] flex-col gap-[20px]  rounded-[20px] cursor-pointer pb-[10px]"}>
                 <img src={item.img} alt="" className={"w-full rounded-t-[20px]"}/>
