@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 https://tengri-news-client.vercel.app/
 
+## Ссылка на бэк
+
+https://github.com/arystambek-dimash/tengri_news
+
 ## Available Scripts
 
 In the project directory, you can run:
