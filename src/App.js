@@ -81,8 +81,8 @@ function App() {
       </div>
         <div className={"bg-white w-[80%] py-[3%] flex flex-col gap-[50px]"}>
             <div className={"w-full flex justify-center"}>
-                    <input ref={inputRef} type="text" className={"bg-gray-200 w-[80%] h-[100px] rounded-l-[10px] px-[2%] text-3xl"} placeholder={"Искать"} />
-                    <button className={"w-[10%] h-[100px] bg-[#03ab02] rounded-r-[10px] text-4xl text-white font-medium"} onClick={handleSearch}>Поиск</button>
+                    <input ref={inputRef} type="text" className={"bg-gray-200 w-[80%] h-[8vh] rounded-l-[10px] px-[2%] text-3xl"} placeholder={"Искать"} />
+                    <button className={"w-[10%] h-[8vh] bg-[#03ab02] rounded-r-[10px] text-3xl text-white font-medium"} onClick={handleSearch}>Поиск</button>
             </div>
             <div className={"flex flex-wrap gap-x-[5%] gap-y-[50px] px-[5%] w-full "}>
                 {
@@ -94,22 +94,22 @@ function App() {
                 }
             </div>
             <div className={"w-full flex justify-center gap-[30px]"}>
-                <div className={"cursor-pointer text-4xl"} onClick={() => handleClick(-1)}>
+                <div className={"cursor-pointer text-2xl"} onClick={() => handleClick(-1)}>
                     {`<`}
                 </div>
                 {
-                    pages[0] > 1 && <div className={"text-4xl"}>...</div>
+                    pages[0] > 1 && <div className={"text-2xl"}>...</div>
                 }
                     {
                         pages.map((item) =>
-                        <div key={item} className={"cursor-pointer text-4xl"} style={{fontWeight: item === currPage ? "700" : "400"}} onClick={() => handleClick(item)}>
+                        <div key={item} className={"cursor-pointer text-2xl"} style={{fontWeight: item === currPage ? "700" : "400"}} onClick={() => handleClick(item)}>
                             {item}
                         </div>)
                     }
                 {
-                    pages[2] < max && <div className={"text-4xl"}>...</div>
+                    pages[2] < max && <div className={"text-2xl"}>...</div>
                 }
-                <div className={"cursor-pointer text-4xl"} onClick={() => handleClick(0)}>
+                <div className={"cursor-pointer text-2xl"} onClick={() => handleClick(0)}>
                     {`>`}
                 </div>
             </div>

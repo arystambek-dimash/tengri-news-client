@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/factorial-news.iml" filepath="$PROJECT_DIR$/.idea/factorial-news.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tengri-news-client.iml" filepath="$PROJECT_DIR$/.idea/tengri-news-client.iml" />
     </modules>
   </component>
 </project>
